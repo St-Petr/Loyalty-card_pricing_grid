@@ -255,7 +255,7 @@ button{
     margin-bottom: 20px;
     font-size: 12px;
     padding: 10px;
-    transition: all 0.5s;
+    transition: all 0.3s;
     cursor: pointer;
 }
 button:hover{
@@ -266,7 +266,7 @@ button .span{
     cursor: pointer;
     display: inline-block;
     position: relative;
-    transition: 2s;
+    transition: 0.5s;
 }
 button .span:after {
   content: '\00bb';
@@ -274,7 +274,7 @@ button .span:after {
   opacity: 0;
   top: -17px;
   right: 20px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 button:hover .span {
   padding-right: 10px;
@@ -308,3 +308,4 @@ section{
      padding: 10px;
     font-size: 15px;
 }
+
